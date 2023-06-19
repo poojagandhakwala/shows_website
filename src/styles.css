@@ -1,0 +1,64 @@
+.title{
+  font-size: 34px;
+  text-align: center;
+  justify-items: center;
+}
+.row{
+  text-align: center;
+  justify-items: center;
+}
+.card-body{
+  display:inline-flex;
+  flex-direction: row;
+  margin-left: 2px;
+  padding: 10px;
+}
+.show-img img{
+  width:100% !important;
+  height:155% !important;
+  max-width: 300px !important;
+  max-height: 300px!important;
+  margin:0px -11.6px;
+}
+.btn-danger.b-info{
+  width: 95px!important;;
+}
+.content{
+  flex-direction: row;
+  padding: 2px;
+  float: left;
+  justify-content: left ;
+}
+.heading{
+  justify-content: left;
+  float:left;
+  text-align: justify;
+}
+.heading>h1{
+  color:darkred;
+}
+.heading>h5,.heading>p{
+  display: inline-flex;
+  flex-direction: row;
+}
+.heading>a>button{
+  font-size:20px;
+}
+.content-inner>h5,.content-inner>p{
+  display: inline-flex;
+  flex-direction: row;
+}
+.content-inner>h5,p{
+  font-size:18px;
+}
+.summary{
+  width:50%;
+  font-size: 20px;
+  justify-content: left;
+  text-align: justify;
+  margin-left:-10px;
+  margin-right: 20px;
+}
+.summary>p{
+  justify-content: left;
+}
